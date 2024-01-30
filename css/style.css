@@ -247,7 +247,7 @@ h3 {
   align-self: stretch;
 }
 
-.hebergements-and-populaires .title {
+.title {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -378,6 +378,68 @@ h3 {
 .populaires-cards .card-rating {
   margin-bottom: 5px;
   display: var(--fa-display, inline-block);
+}
+
+/********** Activity ***********/
+
+.activity {
+  display: flex;
+  padding: 1.875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  align-self: stretch;
+}
+
+.activity-cards {
+  display: flex;
+  height: 27.4375rem;
+  max-width: 80rem;
+  align-items: flex-start;
+  gap: 1.875rem;
+  align-self: stretch;
+}
+
+.activity-cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 1.25rem;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.activity-cards img {
+  flex: 1 0 0;
+  align-self: stretch;
+
+  border-radius: 1.25rem 1.25rem 0rem 0rem;
+  background: url(./images/activites/reno-laithienne.jpg),
+    lightgray 50% / cover no-repeat;
+}
+
+.activity-cards .card-content {
+  display: flex;
+  padding: 1.25rem 1.1875rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
+  background: #fff;
+}
+
+.activity-cards .card-content h3 {
+  align-self: stretch;
+  color: #000;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 1rem */
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
