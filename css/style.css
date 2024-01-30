@@ -63,6 +63,10 @@ body {
   box-sizing: border-box;
 }
 
+.hebergements-and-populaires a {
+  text-decoration: none;
+}
+
 /****** Header ***********/
 header {
   display: flex;
