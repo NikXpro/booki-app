@@ -422,7 +422,7 @@ h3 {
 
 .activity-cards .card-content {
   display: flex;
-  padding: 0px 19px;
+  padding: 1rem 1.1875rem;
   flex-direction: column;
   align-items: flex-start;
   align-self: stretch;
