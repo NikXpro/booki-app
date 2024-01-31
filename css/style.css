@@ -227,9 +227,14 @@ h3 {
   border: 2px solid var(--Grey-Tint2, #d9d9d9);
 }
 
-.filterbar .btn.active {
+.filterbar .btn:hover {
   background: var(--Blue-Light, #deebff);
 }
+
+/* when button is active
+.filterbar .btn.active {
+  background: var(--Blue-Light, #deebff);
+}*/
 
 .infobar {
   display: flex;
