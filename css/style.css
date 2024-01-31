@@ -106,14 +106,22 @@ header {
   font-size: 16px; /* Taille du texte */
   padding: 10px; /* Espace autour du texte */
   display: block;
+  border: 2px solid transparent; /* Bordure transparente */
 }
 
-.btn.active a {
+.btn a:hover {
   border-top: 2px solid var(--main-color); /* Bordure bleue pour l'élément actif */
 
   color: var(--main-color);
 }
 
+/* when button is active
+.btn.active a {
+  border-top: 2px solid var(--main-color); /* Bordure bleue pour l'élément actif 
+
+  color: var(--main-color);
+}
+*/
 /********** Main ***********/
 
 main {
