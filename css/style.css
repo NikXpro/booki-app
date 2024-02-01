@@ -509,6 +509,12 @@ h3 {
   border-radius: 1.25rem 1.25rem 0rem 0rem;
 }
 
+.card:hover {
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01);
+}
+
 .activity-cards .card-content {
   display: flex;
   padding: 1rem 1.1875rem;
