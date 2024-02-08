@@ -227,10 +227,10 @@ h3 {
   height: 100%;
   border: none;
   outline: none;
-  padding: 0;
+  padding-left: 1.5rem;
 
   color: var(--Black, #000);
-  text-align: center;
+  text-align: start;
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -242,7 +242,7 @@ h3 {
   /* Chrome/Opera/Safari */
 
   color: var(--Black, #000);
-  text-align: center;
+  text-align: start;
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -254,7 +254,7 @@ h3 {
   opacity: 1;
 
   color: var(--Black, #000);
-  text-align: center;
+  text-align: start;
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -265,7 +265,7 @@ h3 {
   /* IE 10+ */
 
   color: var(--Black, #000);
-  text-align: center;
+  text-align: start;
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -277,7 +277,7 @@ h3 {
   opacity: 1;
 
   color: var(--Black, #000);
-  text-align: center;
+  text-align: start;
   font-family: Raleway;
   font-size: 1.125rem;
   font-style: normal;
@@ -722,7 +722,6 @@ footer .about-content {
 
   .searchbar .searchfield {
     width: 100%;
-    padding-left: 1.5rem;
   }
 
   .searchbar .searchfield input[type="text"] {
