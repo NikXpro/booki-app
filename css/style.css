@@ -506,7 +506,7 @@ h3 {
   object-fit: cover;
 }
 
-.activity-cards .card:hover {
+.card:hover {
   -ms-transform: scale(1.005); /* IE 9 */
   -webkit-transform: scale(1.01); /* Safari 3-8 */
   transform: scale(1.01);
