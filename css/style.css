@@ -144,6 +144,20 @@ h1 {
   line-height: normal;
 }
 
+.section-title {
+  margin: 0px;
+  color: #000;
+  text-decoration: none;
+
+  align-self: stretch;
+  /* Title/Section */
+  font-family: Raleway;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .card-subtitle {
   margin: 0px;
   color: #000;
